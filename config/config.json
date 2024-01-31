@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hero-plus-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/heroPlus/HeroPlusWebPart.js",
+          "manifest": "./src/webparts/heroPlus/HeroPlusWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HeroPlusWebPartStrings": "lib/webparts/heroPlus/loc/{locale}.js"
+  }
+}

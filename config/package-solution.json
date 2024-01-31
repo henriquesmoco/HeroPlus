@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hero-plus-client-side-solution",
+    "id": "9f995cda-16eb-4592-91f2-35f4b0778d9a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "HeroPlus description"
+      },
+      "longDescription": {
+        "default": "HeroPlus description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hero-plus Feature",
+        "description": "The feature that activates elements of the hero-plus solution.",
+        "id": "61693fbe-7787-4484-959d-93ab27f5c767",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hero-plus.sppkg"
+  }
+}
